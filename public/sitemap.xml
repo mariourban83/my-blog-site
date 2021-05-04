@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/deploy-hugo-to-firebase/</loc>
+    <lastmod>2021-05-04T00:48:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-05-04T00:48:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2021-05-04T00:48:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/hugo-in-depth-part-2/</loc>
+    <lastmod>2021-05-03T23:33:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/hugo-in-depth-part-1/</loc>
+    <lastmod>2021-05-03T21:04:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/getting-started-with-hugo/</loc>
+    <lastmod>2021-05-03T17:23:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+</urlset>

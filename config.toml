@@ -1,0 +1,19 @@
+baseurl = "/"
+title = "Mario's blog"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Mario's blog"
+    description = '"Because documentation matters"'
+    github = "https://github.com/mariourban83"
+    linkedin = "https://www.linkedin.com/in/mariourban83/"
+    email = "u.mario@seznam.cz"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
+theme = "ghostwriter"
