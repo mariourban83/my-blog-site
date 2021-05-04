@@ -1,6 +1,9 @@
 ---
 title: "Deploy Hugo to Firebase"
 date: 2021-05-04T00:48:07+01:00
+author: "Mario"
+tags: ["deploy", "firebase"]
+categories: ["web-development"]
 draft: true
 ---
 ![Alt text](https://cdn.pixabay.com/photo/2017/09/07/16/39/vehicle-2725880_960_720.png "Firefighter car ")

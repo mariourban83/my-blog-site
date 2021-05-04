@@ -2,6 +2,8 @@
 title: "Getting started with Hugo"
 date: 2021-05-03T17:23:58+01:00
 author: "Mario"
+tags: ["hugo"]
+categories: ["web-development"]
 draft: true
 ---
 ![Alt text](https://cdn.pixabay.com/photo/2016/09/23/21/08/motorcycle-1690452_960_720.jpg "Coding ")
