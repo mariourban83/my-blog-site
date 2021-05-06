@@ -68,6 +68,6 @@ hugo server -D (will render draft files)
 ```
 
 Open http://localhost:1313 in your browser, and you should be able to see the site live!   
-How cool is that ⭐ 
+Very cool ⭐. 
 
 [Source - Freecodecamp.org ➡ ](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/) 

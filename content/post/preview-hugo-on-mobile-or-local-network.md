@@ -2,7 +2,7 @@
 title: "Preview Hugo on Mobile or Local Network"
 date: 2021-05-04T20:30:49+01:00
 author: "Mario"
-tags: ["deployement", "local-development"]
+tags: ["deployment", "local-development"]
 categories: []
 draft: true
 ---
