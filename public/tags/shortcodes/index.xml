@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shortcodes on MU 💻 blog</title>
+    <link>/tags/shortcodes/</link>
+    <description>Recent content in shortcodes on MU 💻 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 03 May 2021 23:33:20 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo in Depth Part 2</title>
+      <link>/hugo-in-depth-part-2/</link>
+      <pubDate>Mon, 03 May 2021 23:33:20 +0100</pubDate>
+      
+      <guid>/hugo-in-depth-part-2/</guid>
+      <description>Archetypes In archetypes/default.md - data can be inserted here to display on any page created by hugo. If .md file created here will corespond with directory within the content folder, any posts created will have coresponding data inserted.
+archetypes/ default.md directory1.md content/ page1.md directory1/ page2.md page3.md Here ⤴ , page2 will have data from directory1.md file and the rest of the files (page1, page3) will get its data from default.md</description>
+    </item>
+    
+  </channel>
+</rss>

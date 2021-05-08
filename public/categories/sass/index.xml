@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sass on MU 💻 blog</title>
+    <link>/categories/sass/</link>
+    <description>Recent content in Sass on MU 💻 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 May 2021 02:39:16 +0100</lastBuildDate>
+    
+	<atom:link href="/categories/sass/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sass Live Deployment in Browser</title>
+      <link>/sass-live-deployment-in-browser/</link>
+      <pubDate>Thu, 06 May 2021 02:39:16 +0100</pubDate>
+      
+      <guid>/sass-live-deployment-in-browser/</guid>
+      <description>Set up in-browser deployment with Sass Article tutplus.com
+Article umaar.com
+Nice pdf</description>
+    </item>
+    
+  </channel>
+</rss>

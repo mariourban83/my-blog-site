@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deploy on MU 💻 blog</title>
+    <link>/tags/deploy/</link>
+    <description>Recent content in deploy on MU 💻 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 04 May 2021 20:30:49 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/deploy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploy Hugo to Firebase</title>
+      <link>/deploy-hugo-to-firebase/</link>
+      <pubDate>Tue, 04 May 2021 00:48:07 +0100</pubDate>
+      
+      <guid>/deploy-hugo-to-firebase/</guid>
+      <description>Deploying website with Hugo. This is actualy very easy.
+From the project root directory, run:
+hugo -D This will populate the /public directory with updated content.
+Now the app is ready to be deployed to Firebase.
+Deploying to Firebase Create a project within a firebase console, and in the hosting section, follow the instruction to set up project name, etc&amp;hellip;
+Then, from the console , project root directory run:
+firebase init to run interactive setup</description>
+    </item>
+    
+  </channel>
+</rss>

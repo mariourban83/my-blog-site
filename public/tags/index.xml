@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on MU 💻 blog</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on MU 💻 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 07 May 2021 13:37:47 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>react</title>
+      <link>/tags/react/</link>
+      <pubDate>Fri, 07 May 2021 13:37:47 +0100</pubDate>
+      
+      <guid>/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>server-side-rendering</title>
+      <link>/tags/server-side-rendering/</link>
+      <pubDate>Fri, 07 May 2021 13:37:47 +0100</pubDate>
+      
+      <guid>/tags/server-side-rendering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deploy</title>
+      <link>/tags/deploy/</link>
+      <pubDate>Tue, 04 May 2021 20:30:49 +0100</pubDate>
+      
+      <guid>/tags/deploy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deployment</title>
+      <link>/tags/deployment/</link>
+      <pubDate>Tue, 04 May 2021 20:30:49 +0100</pubDate>
+      
+      <guid>/tags/deployment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>local-development</title>
+      <link>/tags/local-development/</link>
+      <pubDate>Tue, 04 May 2021 20:30:49 +0100</pubDate>
+      
+      <guid>/tags/local-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>functions</title>
+      <link>/tags/functions/</link>
+      <pubDate>Tue, 04 May 2021 13:02:35 +0100</pubDate>
+      
+      <guid>/tags/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>variables</title>
+      <link>/tags/variables/</link>
+      <pubDate>Tue, 04 May 2021 13:02:35 +0100</pubDate>
+      
+      <guid>/tags/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firebase</title>
+      <link>/tags/firebase/</link>
+      <pubDate>Tue, 04 May 2021 00:48:07 +0100</pubDate>
+      
+      <guid>/tags/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>archetypes</title>
+      <link>/tags/archetypes/</link>
+      <pubDate>Mon, 03 May 2021 23:33:20 +0100</pubDate>
+      
+      <guid>/tags/archetypes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Mon, 03 May 2021 23:33:20 +0100</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>/tags/shortcodes/</link>
+      <pubDate>Mon, 03 May 2021 23:33:20 +0100</pubDate>
+      
+      <guid>/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>taxonomies</title>
+      <link>/tags/taxonomies/</link>
+      <pubDate>Mon, 03 May 2021 23:33:20 +0100</pubDate>
+      
+      <guid>/tags/taxonomies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>content</title>
+      <link>/tags/content/</link>
+      <pubDate>Mon, 03 May 2021 21:04:06 +0100</pubDate>
+      
+      <guid>/tags/content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>front-matter</title>
+      <link>/tags/front-matter/</link>
+      <pubDate>Mon, 03 May 2021 21:04:06 +0100</pubDate>
+      
+      <guid>/tags/front-matter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>install</title>
+      <link>/tags/install/</link>
+      <pubDate>Mon, 03 May 2021 21:04:06 +0100</pubDate>
+      
+      <guid>/tags/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>/tags/themes/</link>
+      <pubDate>Mon, 03 May 2021 21:04:06 +0100</pubDate>
+      
+      <guid>/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>live-reload-on-phone</title>
+      <link>/tags/live-reload-on-phone/</link>
+      <pubDate>Mon, 03 May 2021 17:23:58 +0100</pubDate>
+      
+      <guid>/tags/live-reload-on-phone/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

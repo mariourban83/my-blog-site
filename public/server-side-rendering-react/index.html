@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Server Side Rendering React &middot; </title>
+        <meta name="description" content="Content Introduction to SSR
+Benefits of using SSR
+Project with SSR
+Data in Hugo
+Partial Templates
+Shortcode Templates
+ Introduction to SSR Isomorphic, Universal or Server side rendering are the same things. These terms refer to rendering the application on the server side instead of the client side.
+The application is rendered on the server an the files, sent to the client need only be displayed. On older pcs, or phones that means faster load.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.68.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Server Side Rendering React">
+<meta property="og:description" content="Content Introduction to SSR
+Benefits of using SSR
+Project with SSR
+Data in Hugo
+Partial Templates
+Shortcode Templates
+ Introduction to SSR Isomorphic, Universal or Server side rendering are the same things. These terms refer to rendering the application on the server side instead of the client side.
+The application is rendered on the server an the files, sent to the client need only be displayed. On older pcs, or phones that means faster load.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/server-side-rendering-react/">
+        <link rel="stylesheet" href="/dist/site.css">
+        <link rel="stylesheet" href="/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="/">MU 💻 blog</a>
+                            </h1>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Server Side Rendering React</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2021-05-07" itemprop="datePublished">Fri, May 7, 2021</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Mario</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+        <img class="post-featured-image" src="https://cdn.pixabay.com/photo/2018/03/12/12/32/woman-3219507_960_720.jpg">
+    
+
+    <h2 id="content">Content</h2>
+<p><a href="#introduction-to-ssr">Introduction to SSR</a><br>
+<a href="#benefits-of-using-ssr">Benefits of using SSR</a><br>
+<a href="#project-with-ssr">Project with SSR</a><br>
+<a href="#data-in-hugo">Data in Hugo</a><br>
+<a href="#partial-templates">Partial Templates</a><br>
+<a href="#shortcode-templates">Shortcode Templates</a></p>
+<hr>
+<h3 id="introduction-to-ssr">Introduction to SSR</h3>
+<p>Isomorphic, Universal or Server side rendering are the same things. These terms refer to rendering the application on the server side instead of the client side.<br>
+<img src="/ssr.png" alt="ssr"></p>
+<p>The application is rendered on the server an the files, sent to the client need only be displayed. On older pcs, or phones that means faster load.</p>
+<hr>
+<h3 id="benefits-of-using-ssr">Benefits of using SSR</h3>
+<ul>
+<li>Faster loading time on the client side with minimized network latency</li>
+<li>SEO friendly (for better search engines visibility )</li>
+<li>Improved data security and PIPA compliance
+<ul>
+<li>Even if large amount of data are pulled from database, the information itself remains on the back end and never gets delivered to the client.</li>
+</ul>
+</li>
+<li>Predictable server-side processing performance, accurate user metrics and fewer browser compatibility issues</li>
+</ul>
+<hr>
+<h3 id="project-with-ssr">Project with SSR</h3>
+<p>Requirements:</p>
+<ul>
+<li>Chrome Dev Tools</li>
+<li>Node JS</li>
+<li>React JS with dependencies</li>
+<li>Next JS (webpack)</li>
+<li>Redux</li>
+</ul>
+<p>Steps:<br>
+Create Next JS app with either</p>
+<pre><code>npx create-next-app filename
+</code></pre><p>or manualy with :</p>
+<pre><code>mkdir ssr
+cd ssr
+npm init
+npm install react react-dom next
+</code></pre><p>Now with react and next installed, start creating the pages for the app.</p>
+<hr>
+
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/server-side-rendering/">server-side-rendering</a>, 
+                <a href="/tags/react/">react</a>
+        </p>
+    <div class="share">
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <a class="jump-to-top js-jump-top" href="#" aria-label="Back to Top">
+                <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+            </a>
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="/">MU 💻 blog</a>
+                    </h1>
+                </div>
+
+                <section class="social-icons">
+                    
+                    <a data-hint="Github" aria-label="Github" href="https://github.com/mariourban83" rel="me">
+                        <i class="fa fa-github-alt" aria-hidden="true"></i>
+                    </a>
+                
+                
+                    <a data-hint="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/mariourban83/" rel="me">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                
+                
+                    <a data-hint="Email" aria-label="Send an Email" href="mailto:u.mario@seznam.cz">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                
+                </section>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2021 / Powered by <a href="https://gohugo.io/">Hugo</a> / Created be Me</span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="/js/jquery-1.11.3.min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
+

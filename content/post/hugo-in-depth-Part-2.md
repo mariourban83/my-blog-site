@@ -3,10 +3,10 @@ title: "Hugo in Depth Part 2"
 date: 2021-05-03T23:33:20+01:00
 author: "Mario"
 tags: ["hugo","archetypes", "shortcodes", "taxonomies"]
+categories: ["Hugo"]
+image: "https://cdn.pixabay.com/photo/2017/04/13/14/40/woman-2227741_960_720.jpg"
+image-alt: "woman"
 draft: true
----
-![Alt text](https://cdn.pixabay.com/photo/2013/07/12/12/45/car-146185_960_720.png "car")
-
 ---
 
 ### Archetypes

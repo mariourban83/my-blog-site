@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hugo in Depth Part 3 &middot; </title>
+        <meta name="description" content="Content Variables in Hugo
+Functions
+If Statements
+Data in Hugo
+Partial Templates
+Shortcode Templates
+Variables in Hugo Variables can be used only inside the /layouts folder. We can define custom variables inside front matter section of each file:
+--- title: &quot;Hugo in Depth Part 2&quot; date: 2021-05-03T23:33:20&#43;01:00 author: &quot;Mario&quot; tags: [&quot;hugo&quot;,&quot;archetypes&quot;, &quot;hugo-shortcodes&quot;, &quot;taxonomies&quot;] draft: true myVar: &quot;My new variable&quot; --- and use it within our lets say list.html file like this:">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.68.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Hugo in Depth Part 3">
+<meta property="og:description" content="Content Variables in Hugo
+Functions
+If Statements
+Data in Hugo
+Partial Templates
+Shortcode Templates
+Variables in Hugo Variables can be used only inside the /layouts folder. We can define custom variables inside front matter section of each file:
+--- title: &quot;Hugo in Depth Part 2&quot; date: 2021-05-03T23:33:20&#43;01:00 author: &quot;Mario&quot; tags: [&quot;hugo&quot;,&quot;archetypes&quot;, &quot;hugo-shortcodes&quot;, &quot;taxonomies&quot;] draft: true myVar: &quot;My new variable&quot; --- and use it within our lets say list.html file like this:">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/hugo-in-depth-part-3/">
+        <link rel="stylesheet" href="/dist/site.css">
+        <link rel="stylesheet" href="/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="/">MU 💻 blog</a>
+                            </h1>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Hugo in Depth Part 3</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2021-05-04" itemprop="datePublished">Tue, May 4, 2021</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Mario</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+        <img class="post-featured-image" src="https://cdn.pixabay.com/photo/2016/12/04/02/01/celtic-woman-1880944_960_720.jpg">
+    
+
+    <h2 id="content">Content</h2>
+<p><a href="#variables">Variables in Hugo</a><br>
+<a href="#functions">Functions</a><br>
+<a href="#if-statements">If Statements</a><br>
+<a href="#data-in-hugo">Data in Hugo</a><br>
+<a href="#partial-templates">Partial Templates</a><br>
+<a href="#shortcode-templates">Shortcode Templates</a></p>
+<h3 id="variables-in-hugo">Variables in Hugo</h3>
+<p>Variables can be used only inside the <strong>/layouts</strong> folder. We can define custom variables inside front matter section of each file:</p>
+<pre><code>---
+title: &quot;Hugo in Depth Part 2&quot;
+date: 2021-05-03T23:33:20+01:00
+author: &quot;Mario&quot;
+tags: [&quot;hugo&quot;,&quot;archetypes&quot;, &quot;hugo-shortcodes&quot;, &quot;taxonomies&quot;]
+draft: true
+myVar: &quot;My new variable&quot;
+---
+</code></pre><p>and use it within our lets say list.html file like this:</p>
+<pre><code>// /layouts/_default/list.html
+
+{{ Params.myVar }}      // custom variables
+{{ .Title }}        // is hugo created variable
+</code></pre><p>or it can be declared within the templates itself</p>
+<pre><code>{{ &amp;myVarName := &quot;my new variable&quot; }}
+
+// and then used as
+
+{{ $myVarName }}
+</code></pre><p>Anything can be declared as variable inside the frontend matter section (even css style properties).Ror more info about params and variables go to <a href="https://gohugo.io/variables">hugo/variables website</a>.</p>
+<h3 id="functions">Functions</h3>
+<p>Functions can also be used only inside <strong>/layouts</strong> folder.<br>
+Example:</p>
+<pre><code>{{ $s := slice &quot;a&quot; &quot;b&quot; &quot;c&quot; }}
+{{ $s = $s | append &quot;d&quot; &quot;e&quot; }}
+{{/* $s now contains a []string with elements &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, and &quot;e&quot; */}}
+</code></pre><p>All available functions can be found on <a href="https://gohugo.io/functions/">hugo&rsquo;s/functions website</a>.</p>
+<h3 id="if-statements">If Statements</h3>
+<pre><code>{{var1 := 1 }}
+{{ var2 := 2 }}
+
+{{ if eq $var1 $var2 }}
+    True
+{{ else }}
+    False
+{{ end }}
+</code></pre><p>More about logic and conditionals <a href="https://gohugo.io/templates/introduction/#logic">here</a>.</p>
+<h3 id="data-in-hugo">Data in Hugo</h3>
+<p>Data can be stored inside <strong>/data</strong> folder in json, yaml or toml format.<br>
+Let&rsquo;s say we have data.json file inside data folder</p>
+<pre><code>// /data/page-data.json
+[
+    {
+        &quot;name&quot;:&quot;Avon&quot;,
+        &quot;abbreviation&quot;:&quot;AVN&quot;,
+        &quot;country&quot;:&quot;England&quot;
+    },
+    {
+        &quot;name&quot;:&quot;Bedfordshire&quot;,
+        &quot;abbreviation&quot;:&quot;BDF&quot;,
+        &quot;country&quot;:&quot;England&quot;
+    },
+    {
+        &quot;name&quot;:&quot;Berkshire&quot;,
+        &quot;abbreviation&quot;:&quot;BRK&quot;,
+        &quot;country&quot;:&quot;England&quot;
+    }
+]
+</code></pre><p>Now to access the data, loop through the data</p>
+<pre><code>{{ range .Site.Data.page-data }}
+    {{ .name }}
+{{ end }}
+</code></pre><h3 id="partial-templates">Partial templates</h3>
+<p>Makes website more modular. These pieces of html code is then injected where necessary.</p>
+<pre><code>project/
+    layouts/
+        partials/
+            header.html
+            footer.html
+</code></pre><p>Once defined inject into other html template with</p>
+<pre><code>{{ partial &quot;header&quot; . }}
+</code></pre><p>Note the dot in declaration. This is a scope, the available variables appended to the partial.<br>
+Dictionary can be passed here instead of dot if needed</p>
+<pre><code>{{ partial &quot;header&quot; (dict &quot;myTitle&quot; &quot;myCustom&quot;) }}
+</code></pre><h3 id="shortcode-templates">Shortcode Templates</h3>
+<p>They are same as partial, but these can be used inside content folder too.</p>
+<pre><code>project/
+    layouts/
+        partials/
+            header.html
+            footer.html
+        shortcodes/
+            myshortcode.html
+</code></pre><p>Now we can add this shortcode named myshortcode.html into file.md inside <strong>/content</strong> folder</p>
+<pre><code>// /content/file.md
+---
+title: &quot;Some title&quot;
+date: 2021-05-04T13:02:35+01:00
+author: &quot;Mario&quot;
+draft: true
+---
+### Some page content
+
+{{ &lt; myshortcode &gt;}}
+</code></pre><p>We can pass any number of variables with the shortcodes</p>
+<pre><code>{{ &lt; myshortcode color=&quot;blue&quot; &gt;}}
+</code></pre><p>and then, inside the shortcode template, to access these variables</p>
+<pre><code>// project/layouts/shortcodes/myshortcode.html
+
+&lt;p style=&quot;color:{{ .Get `color` }}&quot;&gt;&lt;/p&gt;
+</code></pre><p>Positional arguments are also accepted</p>
+<pre><code>{{ &lt; myshortcode blue &gt;}}
+</code></pre><p>and refer to it as</p>
+<pre><code>&lt;p style=&quot;color:{{ .Get 0 }}&quot;&gt;&lt;/p&gt;
+</code></pre><p>where 0 is the position of the argument in the shortcode.</p>
+<p>The shortcodes can be also bit more complex</p>
+<pre><code>{{ &lt; myshortcode &gt;}}
+    Text inside shortcode
+{{ &lt; /myshortcode &gt;}}
+</code></pre><p>and then refer to it with <strong>{{ .Inner }}</strong> tag. If we want to add markup between the shortcode tags, we can achieve that with <strong>%</strong> sign</p>
+<pre><code>{{ % myshortcode %}}
+    **Text inside shortcode**
+{{ % /myshortcode %}}
+</code></pre><p>👏Thanks to <a href="https://www.youtube.com/watch?v=qtIqKaDlqXo">Mike Dane</a> for a great introduction to the Hugo</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/variables/">variables</a>, 
+                <a href="/tags/functions/">functions</a>
+        </p>
+    <div class="share">
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <a class="jump-to-top js-jump-top" href="#" aria-label="Back to Top">
+                <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+            </a>
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="/">MU 💻 blog</a>
+                    </h1>
+                </div>
+
+                <section class="social-icons">
+                    
+                    <a data-hint="Github" aria-label="Github" href="https://github.com/mariourban83" rel="me">
+                        <i class="fa fa-github-alt" aria-hidden="true"></i>
+                    </a>
+                
+                
+                    <a data-hint="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/mariourban83/" rel="me">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                
+                
+                    <a data-hint="Email" aria-label="Send an Email" href="mailto:u.mario@seznam.cz">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                
+                </section>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2021 / Powered by <a href="https://gohugo.io/">Hugo</a> / Created be Me</span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="/js/jquery-1.11.3.min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
+

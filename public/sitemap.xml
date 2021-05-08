@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2021-05-07T13:37:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-05-07T13:37:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2021-05-07T13:37:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/react/</loc>
+    <lastmod>2021-05-07T13:37:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/react-js/</loc>
+    <lastmod>2021-05-07T13:37:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/server-side-rendering-react/</loc>
+    <lastmod>2021-05-07T13:37:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/server-side-rendering/</loc>
+    <lastmod>2021-05-07T13:37:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-05-07T13:37:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/sass/</loc>
+    <lastmod>2021-05-06T02:39:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/sass-live-deployment-in-browser/</loc>
+    <lastmod>2021-05-06T02:39:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/deploy/</loc>
+    <lastmod>2021-05-04T20:30:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/deployment/</loc>
+    <lastmod>2021-05-04T20:30:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2021-05-04T20:30:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/local-development/</loc>
+    <lastmod>2021-05-04T20:30:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/preview-hugo-on-mobile-or-local-network/</loc>
+    <lastmod>2021-05-04T20:30:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/functions/</loc>
+    <lastmod>2021-05-04T13:02:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/hugo-in-depth-part-3/</loc>
+    <lastmod>2021-05-04T13:02:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/variables/</loc>
+    <lastmod>2021-05-04T13:02:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/deploy-hugo-to-firebase/</loc>
+    <lastmod>2021-05-04T00:48:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/firebase/</loc>
+    <lastmod>2021-05-04T00:48:07+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/archetypes/</loc>
+    <lastmod>2021-05-03T23:33:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2021-05-03T23:33:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/hugo-in-depth-part-2/</loc>
+    <lastmod>2021-05-03T23:33:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/shortcodes/</loc>
+    <lastmod>2021-05-03T23:33:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/taxonomies/</loc>
+    <lastmod>2021-05-03T23:33:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/content/</loc>
+    <lastmod>2021-05-03T21:04:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/front-matter/</loc>
+    <lastmod>2021-05-03T21:04:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/hugo-in-depth-part-1/</loc>
+    <lastmod>2021-05-03T21:04:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/install/</loc>
+    <lastmod>2021-05-03T21:04:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/themes/</loc>
+    <lastmod>2021-05-03T21:04:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/getting-started-with-hugo/</loc>
+    <lastmod>2021-05-03T17:23:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/live-reload-on-phone/</loc>
+    <lastmod>2021-05-03T17:23:58+01:00</lastmod>
+  </url>
+  
+</urlset>

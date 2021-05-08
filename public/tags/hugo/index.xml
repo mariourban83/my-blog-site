@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on MU 💻 blog</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in hugo on MU 💻 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 03 May 2021 23:33:20 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo in Depth Part 2</title>
+      <link>/hugo-in-depth-part-2/</link>
+      <pubDate>Mon, 03 May 2021 23:33:20 +0100</pubDate>
+      
+      <guid>/hugo-in-depth-part-2/</guid>
+      <description>Archetypes In archetypes/default.md - data can be inserted here to display on any page created by hugo. If .md file created here will corespond with directory within the content folder, any posts created will have coresponding data inserted.
+archetypes/ default.md directory1.md content/ page1.md directory1/ page2.md page3.md Here ⤴ , page2 will have data from directory1.md file and the rest of the files (page1, page3) will get its data from default.md</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Hugo</title>
+      <link>/getting-started-with-hugo/</link>
+      <pubDate>Mon, 03 May 2021 17:23:58 +0100</pubDate>
+      
+      <guid>/getting-started-with-hugo/</guid>
+      <description>Hugo is fast, Hugo is flexible, Hugo is simple Hugo is not about configuration and fancy styling like lot of Javascript libraries, Hugo is about content. Because quality content is still a king. And always will be.
+Let&amp;rsquo;s start with Hugo.
+To Install Hugo To install Hugo on macOS, from your terminal run
+brew install hugo For Windows and Linux, check the official installation guide.
+Once Hugo is installed, you create a Hugo site by running in terminal</description>
+    </item>
+    
+  </channel>
+</rss>

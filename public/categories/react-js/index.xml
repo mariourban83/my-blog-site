@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React JS on MU 💻 blog</title>
+    <link>/categories/react-js/</link>
+    <description>Recent content in React JS on MU 💻 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 07 May 2021 13:37:47 +0100</lastBuildDate>
+    
+	<atom:link href="/categories/react-js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Server Side Rendering React</title>
+      <link>/server-side-rendering-react/</link>
+      <pubDate>Fri, 07 May 2021 13:37:47 +0100</pubDate>
+      
+      <guid>/server-side-rendering-react/</guid>
+      <description>Content Introduction to SSR
+Benefits of using SSR
+Project with SSR
+Data in Hugo
+Partial Templates
+Shortcode Templates
+ Introduction to SSR Isomorphic, Universal or Server side rendering are the same things. These terms refer to rendering the application on the server side instead of the client side.
+The application is rendered on the server an the files, sent to the client need only be displayed. On older pcs, or phones that means faster load.</description>
+    </item>
+    
+  </channel>
+</rss>

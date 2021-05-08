@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MU 💻 blog</title>
+    <link>/</link>
+    <description>Recent content on MU 💻 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 07 May 2021 13:37:47 +0100</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Server Side Rendering React</title>
+      <link>/server-side-rendering-react/</link>
+      <pubDate>Fri, 07 May 2021 13:37:47 +0100</pubDate>
+      
+      <guid>/server-side-rendering-react/</guid>
+      <description>Content Introduction to SSR
+Benefits of using SSR
+Project with SSR
+Data in Hugo
+Partial Templates
+Shortcode Templates
+ Introduction to SSR Isomorphic, Universal or Server side rendering are the same things. These terms refer to rendering the application on the server side instead of the client side.
+The application is rendered on the server an the files, sent to the client need only be displayed. On older pcs, or phones that means faster load.</description>
+    </item>
+    
+    <item>
+      <title>Sass Live Deployment in Browser</title>
+      <link>/sass-live-deployment-in-browser/</link>
+      <pubDate>Thu, 06 May 2021 02:39:16 +0100</pubDate>
+      
+      <guid>/sass-live-deployment-in-browser/</guid>
+      <description>Set up in-browser deployment with Sass Article tutplus.com
+Article umaar.com
+Nice pdf</description>
+    </item>
+    
+    <item>
+      <title>Preview Hugo on Mobile or Local Network</title>
+      <link>/preview-hugo-on-mobile-or-local-network/</link>
+      <pubDate>Tue, 04 May 2021 20:30:49 +0100</pubDate>
+      
+      <guid>/preview-hugo-on-mobile-or-local-network/</guid>
+      <description>To preview hugo development website on mobile phone or local network, you need to tell hugo server to bind to baseUrl the your local IP address. Im my case
+hugo server --buildDrafts --bind 192.168.X.XXX --baseURL http://192.168.X.XXX If the IP address is assigned dynamically by the router, the command needs to be modified each time the address change.</description>
+    </item>
+    
+    <item>
+      <title>Hugo in Depth Part 3</title>
+      <link>/hugo-in-depth-part-3/</link>
+      <pubDate>Tue, 04 May 2021 13:02:35 +0100</pubDate>
+      
+      <guid>/hugo-in-depth-part-3/</guid>
+      <description>Content Variables in Hugo
+Functions
+If Statements
+Data in Hugo
+Partial Templates
+Shortcode Templates
+Variables in Hugo Variables can be used only inside the /layouts folder. We can define custom variables inside front matter section of each file:
+--- title: &amp;quot;Hugo in Depth Part 2&amp;quot; date: 2021-05-03T23:33:20+01:00 author: &amp;quot;Mario&amp;quot; tags: [&amp;quot;hugo&amp;quot;,&amp;quot;archetypes&amp;quot;, &amp;quot;hugo-shortcodes&amp;quot;, &amp;quot;taxonomies&amp;quot;] draft: true myVar: &amp;quot;My new variable&amp;quot; --- and use it within our lets say list.html file like this:</description>
+    </item>
+    
+    <item>
+      <title>Deploy Hugo to Firebase</title>
+      <link>/deploy-hugo-to-firebase/</link>
+      <pubDate>Tue, 04 May 2021 00:48:07 +0100</pubDate>
+      
+      <guid>/deploy-hugo-to-firebase/</guid>
+      <description>Deploying website with Hugo. This is actualy very easy.
+From the project root directory, run:
+hugo -D This will populate the /public directory with updated content.
+Now the app is ready to be deployed to Firebase.
+Deploying to Firebase Create a project within a firebase console, and in the hosting section, follow the instruction to set up project name, etc&amp;hellip;
+Then, from the console , project root directory run:
+firebase init to run interactive setup</description>
+    </item>
+    
+    <item>
+      <title>Hugo in Depth Part 2</title>
+      <link>/hugo-in-depth-part-2/</link>
+      <pubDate>Mon, 03 May 2021 23:33:20 +0100</pubDate>
+      
+      <guid>/hugo-in-depth-part-2/</guid>
+      <description>Archetypes In archetypes/default.md - data can be inserted here to display on any page created by hugo. If .md file created here will corespond with directory within the content folder, any posts created will have coresponding data inserted.
+archetypes/ default.md directory1.md content/ page1.md directory1/ page2.md page3.md Here ⤴ , page2 will have data from directory1.md file and the rest of the files (page1, page3) will get its data from default.md</description>
+    </item>
+    
+    <item>
+      <title>Hugo in Depth Part 1</title>
+      <link>/hugo-in-depth-part-1/</link>
+      <pubDate>Mon, 03 May 2021 21:04:06 +0100</pubDate>
+      
+      <guid>/hugo-in-depth-part-1/</guid>
+      <description>Install latest version Google Hugo releases page on github. Download latest release and follow the steps to install based on the OS.
+Directory structure Start new project in desired directory with
+hugo new site sitename Folders   Archetypes
+ Define content in the website    content
+ Place where all website content goes (posts, etc&amp;hellip;)    data
+ Kind of like database. All data goes there (like json files)    layouts</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Hugo</title>
+      <link>/getting-started-with-hugo/</link>
+      <pubDate>Mon, 03 May 2021 17:23:58 +0100</pubDate>
+      
+      <guid>/getting-started-with-hugo/</guid>
+      <description>Hugo is fast, Hugo is flexible, Hugo is simple Hugo is not about configuration and fancy styling like lot of Javascript libraries, Hugo is about content. Because quality content is still a king. And always will be.
+Let&amp;rsquo;s start with Hugo.
+To Install Hugo To install Hugo on macOS, from your terminal run
+brew install hugo For Windows and Linux, check the official installation guide.
+Once Hugo is installed, you create a Hugo site by running in terminal</description>
+    </item>
+    
+  </channel>
+</rss>

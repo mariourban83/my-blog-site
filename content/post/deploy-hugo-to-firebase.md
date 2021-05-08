@@ -3,12 +3,12 @@ title: "Deploy Hugo to Firebase"
 date: 2021-05-04T00:48:07+01:00
 author: "Mario"
 tags: ["deploy", "firebase"]
-categories: ["web-development"]
+categories: ["Hugo"]
+image: "https://cdn.pixabay.com/photo/2016/06/29/01/31/gothic-1485829_960_720.jpg"
+image-alt: "woman"
 draft: true
 ---
-![Alt text](https://cdn.pixabay.com/photo/2017/09/07/16/39/vehicle-2725880_960_720.png "Firefighter car ")
 
----
 ## Deploying website with Hugo.
 
 This is actualy very easy.   

@@ -5,13 +5,12 @@ theme = "ghostwriter"
 [Params]
     mainSections = ["post"]
     intro = true
-    description = "KEY === `Document Everything`"
+    description = "🔑 === Documentation"
     headline = "Home"
     github = "https://github.com/mariourban83"
     linkedin = "https://www.linkedin.com/in/mariourban83/"
     email = "u.mario@seznam.cz"
     opengraph = true
-    dateFormat = "Mon, Jan 2, 2006"
 
 [Permalinks]
     post = "/:filename/"

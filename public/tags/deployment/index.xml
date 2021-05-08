@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deployment on MU 💻 blog</title>
+    <link>/tags/deployment/</link>
+    <description>Recent content in deployment on MU 💻 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 04 May 2021 20:30:49 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Preview Hugo on Mobile or Local Network</title>
+      <link>/preview-hugo-on-mobile-or-local-network/</link>
+      <pubDate>Tue, 04 May 2021 20:30:49 +0100</pubDate>
+      
+      <guid>/preview-hugo-on-mobile-or-local-network/</guid>
+      <description>To preview hugo development website on mobile phone or local network, you need to tell hugo server to bind to baseUrl the your local IP address. Im my case
+hugo server --buildDrafts --bind 192.168.X.XXX --baseURL http://192.168.X.XXX If the IP address is assigned dynamically by the router, the command needs to be modified each time the address change.</description>
+    </item>
+    
+  </channel>
+</rss>

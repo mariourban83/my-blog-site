@@ -3,11 +3,10 @@ title: "Hugo in Depth Part 3"
 date: 2021-05-04T13:02:35+01:00
 author: "Mario"
 tags: ["variables", "functions"]
-categories: ["web-development"]
+categories: ["Hugo"]
+image: "https://cdn.pixabay.com/photo/2016/12/04/02/01/celtic-woman-1880944_960_720.jpg"
+image-alt: "woman"
 draft: true
----
-![Alt text](https://cdn.pixabay.com/photo/2021/04/25/11/15/car-6206163_960_720.png "Car ")
-
 ---
 ## Content
 

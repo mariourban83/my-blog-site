@@ -3,11 +3,12 @@ title: "Hugo in Depth Part 1"
 date: 2021-05-03T21:04:06+01:00
 author: "Mario"
 tags: ["install", "themes", "front-matter", "content"]
+categories: ["Hugo"]
+image: "https://cdn.pixabay.com/photo/2017/05/23/12/52/fantasy-2337179_960_720.jpg"
+image-alt: "woman"
 draft: true
 ---
-![Alt text](https://cdn.pixabay.com/photo/2017/01/31/19/10/automobile-2026529_960_720.png "car")   
 
----
 ### Install latest version
 
 Google Hugo releases page on github. Download latest release and follow the steps to install based on the OS.

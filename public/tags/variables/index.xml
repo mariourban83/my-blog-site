@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>variables on MU 💻 blog</title>
+    <link>/tags/variables/</link>
+    <description>Recent content in variables on MU 💻 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 04 May 2021 13:02:35 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/variables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo in Depth Part 3</title>
+      <link>/hugo-in-depth-part-3/</link>
+      <pubDate>Tue, 04 May 2021 13:02:35 +0100</pubDate>
+      
+      <guid>/hugo-in-depth-part-3/</guid>
+      <description>Content Variables in Hugo
+Functions
+If Statements
+Data in Hugo
+Partial Templates
+Shortcode Templates
+Variables in Hugo Variables can be used only inside the /layouts folder. We can define custom variables inside front matter section of each file:
+--- title: &amp;quot;Hugo in Depth Part 2&amp;quot; date: 2021-05-03T23:33:20+01:00 author: &amp;quot;Mario&amp;quot; tags: [&amp;quot;hugo&amp;quot;,&amp;quot;archetypes&amp;quot;, &amp;quot;hugo-shortcodes&amp;quot;, &amp;quot;taxonomies&amp;quot;] draft: true myVar: &amp;quot;My new variable&amp;quot; --- and use it within our lets say list.html file like this:</description>
+    </item>
+    
+  </channel>
+</rss>

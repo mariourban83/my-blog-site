@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hugo in Depth Part 2 &middot; </title>
+        <meta name="description" content="Archetypes In archetypes/default.md - data can be inserted here to display on any page created by hugo. If .md file created here will corespond with directory within the content folder, any posts created will have coresponding data inserted.
+archetypes/ default.md directory1.md content/ page1.md directory1/ page2.md page3.md Here ⤴ , page2 will have data from directory1.md file and the rest of the files (page1, page3) will get its data from default.md">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.68.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Hugo in Depth Part 2">
+<meta property="og:description" content="Archetypes In archetypes/default.md - data can be inserted here to display on any page created by hugo. If .md file created here will corespond with directory within the content folder, any posts created will have coresponding data inserted.
+archetypes/ default.md directory1.md content/ page1.md directory1/ page2.md page3.md Here ⤴ , page2 will have data from directory1.md file and the rest of the files (page1, page3) will get its data from default.md">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/hugo-in-depth-part-2/">
+        <link rel="stylesheet" href="/dist/site.css">
+        <link rel="stylesheet" href="/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="/">MU 💻 blog</a>
+                            </h1>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Hugo in Depth Part 2</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2021-05-03" itemprop="datePublished">Mon, May 3, 2021</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Mario</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+        <img class="post-featured-image" src="https://cdn.pixabay.com/photo/2017/04/13/14/40/woman-2227741_960_720.jpg">
+    
+
+    <h3 id="archetypes">Archetypes</h3>
+<p>In <strong>archetypes/default.md</strong> -  data can be inserted here to display on any page created by hugo. If .md file created here will corespond with directory within the content folder, any posts created will have coresponding data inserted.</p>
+<pre><code>archetypes/
+    default.md
+    directory1.md
+content/
+    page1.md
+    directory1/
+        page2.md
+    page3.md
+</code></pre><p>Here ⤴ , page2 will have data from directory1.md file and the rest of the files (page1, page3) will get its data from default.md</p>
+<h3 id="shortcodes">Shortcodes</h3>
+<p>Predefined chunks of html inserted into a webpage. Hugo comes with predefined shortcodes.<br>
+Example:</p>
+<pre><code>{{ &lt; youtube w7690hbg878 &gt;}}
+</code></pre><p>This hugo-predefined shortcode inserts youtube video with id ( found in the url of video ) as param.<br>
+More about shortcodes can be found on <a href="https://gohugo.io/content-management/shortcodes/">hugo shortcodes website</a>.</p>
+<h3 id="taxonomies--organize-large-amount-of-content-into-meaningful-way-categories">Taxonomies ( organize large amount of content into meaningful way, categories)</h3>
+<p>These can be sorted based on tags, keywords, categories, etc&hellip;<br>
+Taxonomies are defined within front matter content on the top of each file.</p>
+<pre><code>---
+title: &quot;Hugo in Depth Part 2&quot;
+date: 2021-05-03T23:33:20+01:00
+draft: true
+tags: [&quot;hugo&quot;,&quot;archetypes&quot;]
+categories: [&quot;static&quot;, &quot;web development&quot;, &quot;frontend&quot;]
+---
+</code></pre><p>New taxonomies are defined in <strong>config.toml</strong> file like this:</p>
+<pre><code>baseurl = &quot;/&quot;
+title = &quot;Mario's blog&quot;
+theme = &quot;ghostwriter&quot;
+[taxonomies]
+    tag = &quot;tags&quot;
+    category = &quot;category&quot;
+    mood = &quot;moods&quot;
+</code></pre><p>The taxonomies array with <strong>tag</strong> and <strong>category</strong> key-pair must be added in order for new taxonomies to work. Server needs also be restarted for changes to be recognized.</p>
+<h3 id="hugo-html-templates">Hugo HTML templates</h3>
+<p>Templates are reusable piece of html code that can be injected into the website.<br>
+All the templates live inside <strong>/theme/layouts/</strong> folder of the project.<br>
+To override default templates, create <strong>_default</strong> folder inside <strong>/layouts</strong> folder like this an create the list.html and single.html files in it:</p>
+<pre><code>project/
+    archetypes/
+    content/
+    layouts/
+        _default/
+            list.html
+            single.html
+</code></pre><p>This will override the default views rendered from the theme layout folder.</p>
+<h3 id="home-template">Home template</h3>
+<p>To create custom home page, not to use the theme default home page, <strong>index.html</strong> file needs to be created inside <strong>/layouts</strong> folder.</p>
+<pre><code>project/
+    archetypes/
+    content/
+    layouts/
+        index.html
+</code></pre><p>This will not override the layout of the other pages, just the home page.</p>
+<h3 id="sections-template">Sections template</h3>
+<p>When different layout is required for different subsection of the website, custom templates can be used. We define them inside layout folder like this:</p>
+<pre><code>project/
+    archetypes/
+    content/
+        file1.md
+        dir1/
+            file2.md
+            file3.md
+    layouts/
+        index.html
+        dir1/
+            list.html
+            single.html
+</code></pre><p>Note the <strong>layouts/dir1</strong> templates from layouts folder will only apply to the files (file2 and file3 ) located in coresponding <strong>/content</strong> directory.</p>
+<h3 id="base-templates-and-blocks">Base templates and Blocks</h3>
+<p>To create base html template that will be used for the whole website, <strong>baseof.html</strong> file needs to be created inside <strong>/layouts/_default/</strong> directory:</p>
+<pre><code>project/
+    archetypes/
+    content/
+        file1.md
+        dir1/
+            file2.md
+            file3.md
+    layouts/
+        index.html
+        dir1/
+            list.html
+        _default/
+            baseof.html
+            single.html
+            list.html
+</code></pre><p>then, inside <strong>baseof.html</strong> ,we inject the data from the <strong>list.html main block</strong> into the <strong>main block</strong> section of the baseof.html template</p>
+<pre><code>// layouts/_default/baseof.html
+
+&lt;body&gt;
+    {{ block &quot;main&quot; . }}
+
+    {{end}}
+</code></pre><p>To inject the content from the <strong>list.html</strong> template we simply define the block there</p>
+<pre><code>// layouts/_default/single.html
+
+{{ define &quot;main&quot;}}
+    Content of the main block
+{{ end }}
+</code></pre>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/hugo/">hugo</a>, 
+                <a href="/tags/archetypes/">archetypes</a>, 
+                <a href="/tags/shortcodes/">shortcodes</a>, 
+                <a href="/tags/taxonomies/">taxonomies</a>
+        </p>
+    <div class="share">
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <a class="jump-to-top js-jump-top" href="#" aria-label="Back to Top">
+                <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+            </a>
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="/">MU 💻 blog</a>
+                    </h1>
+                </div>
+
+                <section class="social-icons">
+                    
+                    <a data-hint="Github" aria-label="Github" href="https://github.com/mariourban83" rel="me">
+                        <i class="fa fa-github-alt" aria-hidden="true"></i>
+                    </a>
+                
+                
+                    <a data-hint="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/mariourban83/" rel="me">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                
+                
+                    <a data-hint="Email" aria-label="Send an Email" href="mailto:u.mario@seznam.cz">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                
+                </section>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2021 / Powered by <a href="https://gohugo.io/">Hugo</a> / Created be Me</span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="/js/jquery-1.11.3.min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
+

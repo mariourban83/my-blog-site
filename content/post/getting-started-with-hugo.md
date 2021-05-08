@@ -2,13 +2,13 @@
 title: "Getting started with Hugo"
 date: 2021-05-03T17:23:58+01:00
 author: "Mario"
-tags: ["hugo"]
-categories: ["web-development"]
+tags: ["hugo","live-reload-on-phone"]
+categories: ["Hugo"]
+image: "https://cdn.pixabay.com/photo/2018/05/05/21/37/portrait-3377271_960_720.jpg"
+image-alt: "woman"
 draft: true
 ---
-![Alt text](https://cdn.pixabay.com/photo/2016/09/23/21/08/motorcycle-1690452_960_720.jpg "Coding ")
 
----
 ## Hugo is fast, Hugo is flexible, Hugo is simple
 
 Hugo is not about configuration and fancy styling like lot of Javascript libraries, Hugo is about **content**. Because quality content is still a king. And always will be.   
@@ -67,7 +67,7 @@ or
 hugo server -D (will render draft files)
 ```
 
-Open http://localhost:1313 in your browser, and you should be able to see the site live!   
-Very cool ⭐. 
+Open [http://localhost:1313](http://localhost:1313) in your browser, and you should be able to see the site live!   
+Very cool ⭐ 
 
 [Source - Freecodecamp.org ➡ ](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/) 

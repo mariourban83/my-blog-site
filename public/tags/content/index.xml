@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>content on MU 💻 blog</title>
+    <link>/tags/content/</link>
+    <description>Recent content in content on MU 💻 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 03 May 2021 21:04:06 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo in Depth Part 1</title>
+      <link>/hugo-in-depth-part-1/</link>
+      <pubDate>Mon, 03 May 2021 21:04:06 +0100</pubDate>
+      
+      <guid>/hugo-in-depth-part-1/</guid>
+      <description>Install latest version Google Hugo releases page on github. Download latest release and follow the steps to install based on the OS.
+Directory structure Start new project in desired directory with
+hugo new site sitename Folders   Archetypes
+ Define content in the website    content
+ Place where all website content goes (posts, etc&amp;hellip;)    data
+ Kind of like database. All data goes there (like json files)    layouts</description>
+    </item>
+    
+  </channel>
+</rss>
